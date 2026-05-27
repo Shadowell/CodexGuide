@@ -68,4 +68,12 @@ export default navbar([
       { text: "参考来源与致谢", icon: "heart", link: "/recipes/credits.md" },
     ],
   },
+  {
+    text: "交流群",
+    icon: "message",
+    ariaLabel: "交流群",
+    children: [
+      { text: "关注苍何公众号，回复 codex交流群 进入群交流", icon: "message", link: "/community/roadmap.md" },
+    ],
+  },
 ]);

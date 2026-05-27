@@ -15,9 +15,7 @@
 - 用 Automations 做提醒、定期检查或后续跟进。
 - 配合浏览器、文档、表格、演示文稿等插件做跨工具工作。
 
-::: info 截图占位
-请补充桌面 App 项目工作区截图。建议文件：`docs/.vuepress/public/screenshots/app/01-workspace.png`。
-:::
+![Codex 桌面 App 项目工作区](/screenshots/app/01-workspace.png)
 
 ## 核心能力地图
 
