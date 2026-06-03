@@ -30,7 +30,7 @@ export default hopeTheme({
   navbar,
   sidebar,
 
-  print: false,
+  print: true,
   pure: true,
   focus: false,
   breadcrumb: true,

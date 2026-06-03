@@ -11,7 +11,13 @@
     "dev": "vuepress dev docs --host 0.0.0.0",
     "build": "vuepress build docs",
     "clean": "rm -rf docs/.vuepress/.cache docs/.vuepress/.temp docs/.vuepress/dist",
-    "preview": "vuepress dev docs --host 0.0.0.0"
+    "preview": "vuepress dev docs --host 0.0.0.0",
+    "pdf": "node scripts/export-pdf.mjs",
+    "pdf:en": "node scripts/export-pdf.mjs --lang en",
+    "pdf:sections": "node scripts/export-pdf.mjs --all-sections",
+    "pdf:sections:en": "node scripts/export-pdf.mjs --lang en --all-sections",
+    "pdf:guide": "node scripts/export-pdf.mjs --section guide",
+    "pdf:guide:en": "node scripts/export-pdf.mjs --lang en --section guide"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1"
@@ -20,6 +26,7 @@
     "@vuepress/bundler-vite": "2.0.0-rc.28",
     "@vuepress/plugin-feed": "2.0.0-rc.128",
     "@vuepress/plugin-slimsearch": "2.0.0-rc.128",
+    "md-to-pdf": "^5.2.5",
     "sass-embedded": "^1.97.2",
     "vue": "^3.5.26",
     "vuepress": "2.0.0-rc.28",
